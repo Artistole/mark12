@@ -11,7 +11,12 @@ function calculateSumOfAngles(angle1, angle2, angle3)
 function isTriangle()
 {
    const sumOfAngles = calculateSumOfAngles(Number(inputs[0].value), Number(inputs[1].value), Number(inputs[2].value));
-   if (sumOfAngles === 180)
+   if(inputs[0].value == "" || inputs[1].value == "" || inputs[2].value == "")
+    {
+      outputE1.innerText = "Please enter all inputs";
+       
+    }
+   else if (sumOfAngles === 180)
    {
       outputE1.innerText = "These angles form a triangle";
    }

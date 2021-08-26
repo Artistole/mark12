@@ -20,7 +20,7 @@
 
 const areas = document.querySelectorAll(".area-input");
 const areaBtn = document.querySelector("#area-btn");
-const outputE1 = document.querySelector("#output");
+const outputE1 = document.querySelector("#outputarea");
 
 function multiplication(a,b)
 {
