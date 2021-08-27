@@ -153,6 +153,7 @@ input[type="number"]{
 .hquiz
 {
     text-align: center;
+    color: white;
 }
 
 .quiz-form
@@ -170,6 +171,10 @@ input[type="number"]{
 .question-container
 {
     padding: 1rem;
+    background-color: #D3D3D3;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 2rem 25rem;
 }
 
 .area
@@ -279,3 +284,4 @@ input[type="number"]{
     font-weight:bold ;
     font-size: large;
 }
+
